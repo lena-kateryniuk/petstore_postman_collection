@@ -266,7 +266,10 @@
 							"    pm.expect(response.message).to.eql(pm.collectionVariables.get('petId').toString());\r",
 							"});\r",
 							"\r",
-							""
+							"pm.collectionVariables.unset(\"petId\");\r",
+							"pm.collectionVariables.unset(\"petName\");\r",
+							"pm.collectionVariables.unset(\"updatedPetName\");\r",
+							"pm.collectionVariables.unset(\"newStatus\");"
 						],
 						"type": "text/javascript",
 						"packages": {},
@@ -318,22 +321,6 @@
 	"variable": [
 		{
 			"key": "base_url",
-			"value": ""
-		},
-		{
-			"key": "petId",
-			"value": ""
-		},
-		{
-			"key": "petName",
-			"value": ""
-		},
-		{
-			"key": "updatedPetName",
-			"value": ""
-		},
-		{
-			"key": "newStatus",
 			"value": ""
 		}
 	]
