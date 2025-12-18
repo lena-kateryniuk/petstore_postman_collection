@@ -321,7 +321,7 @@
 	"variable": [
 		{
 			"key": "base_url",
-			"value": ""
+			"value": "https://petstore.swagger.io/v2"
 		}
 	]
 }
